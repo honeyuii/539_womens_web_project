@@ -1,0 +1,32 @@
+body{
+	padding: 10px;
+	background-color: #96acc4cb;
+	font-size: 125%;
+}
+
+h1{
+	font-size: 48px; 
+	font-weight: bold;
+    color: white
+}
+
+h2{
+	font-size: 30px; 
+	font-weight: bold;
+}
+
+
+img{
+    height: 250px;
+	width:auto;
+    border: 1px solid rgb(60, 71, 140);
+    padding: 10px;
+    border-radius: 10px;
+    margin: 5px;
+	margin-left: 10%
+}
+
+header, nav, main, footer{
+	border: 1px solid rgb(76, 73, 121);
+	margin: 5px 0;
+}
