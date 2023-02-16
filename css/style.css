@@ -6,12 +6,6 @@ body{
 	line-height: 1.5;
 }
 
-nav{
-	margin: 0px 0px 30px 0px;
-	padding: auto;
-	width: 100%;
-	text-align: center;
-}
 
 header{
 	margin: 40px 0px 40px 0px;
@@ -19,39 +13,41 @@ header{
 	text-align: center;
 }
 
+nav {
 
-nav ul li{
+    background-color: #7d7ea0;
+    list-style: none;
+	width: 100%;
+    text-align: center;
 
-	display: inline-block;
-	list-style-type: none;
-  	margin: 0;
-  	padding: 0;
-  	overflow: hidden;
-  	background-color: rgb(30, 37, 72);
+}
+
+nav li {
+    display:inline;
 }
 
 nav a{
-
-	display: inline-block;
-  	color: white;
-  	text-align: center;
-  	padding: 14px 16px;
-  	text-decoration: none;
+    display:inline-block;
+    padding:15px;
+    color: black;
+    text-decoration: none;
+    font-size: 20px;
+    width: 15%;
 }
-
-/* nav:visited{
-	color: #000000
-} */
 
 
 nav a:hover{
-	background-color: #111;
+	background-color: rgb(45, 61, 141);
+	color: aliceblue;
 }
 
-/* nav a:active{
-	background-color: rgb(51, 77, 206);
-	text-transform: uppercase;
-} */
+nav a.current {
+	background-color: rgb(22, 29, 63);
+	color: aliceblue;
+}
+
+
+
 
 h1{
 	font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
@@ -94,5 +90,3 @@ img:hover{
 main div:nth-child(3n) img{
     border: 4px rgb(58, 58, 75) solid;
 }
-
-
